@@ -10,5 +10,4 @@ A == 0x7c ? dead : next
 allow:
 return ALLOW
 dead:
-return ERRNO(2)
-return ERRNO(2)
+return ERRNO(0)
